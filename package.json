@@ -1,0 +1,19 @@
+{
+  "name": "floatinchat",
+  "version": "1.0.0",
+  "description": "Floating chat iframe.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "sass --watch styles.sass styles.css",
+    "start:server": "http-server src -p 8087",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "nodemon": "^3.1.4",
+    "sass": "^1.77.8"
+  }
+}

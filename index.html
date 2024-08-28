@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Embed with Iframe</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="floatingChat" class="floating-chat">
+        <i class="fa fa-comments" aria-hidden="true"></i>
+        <div class="chat">
+
+            <div id="floatingChatHeader" class="header">
+                <span class="title">
+                    what's on your mind?
+                </span>
+                <button>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+                             
+            </div>
+
+            <iframe src="http://localhost:3001/" frameborder="0" width="100%" height="500" scrolling="yes"></iframe>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
